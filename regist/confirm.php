@@ -7,21 +7,19 @@
     <title>Regist</title>
 </head>
 <body>
-    <h1>入力画面</h1>
-    <form action="confirm.php" method="post">
+    <h1>確認画面</h1>
+    <p>この内容で登録してもよろしいですか？</p>
+    <form action="" method="post">
         <div>
             <label for="">氏名</label>
-            <input type="text" name="name">
         </div>
         <div>
             <label for="">Email</label>
-            <input type="email" name="email">
         </div>
         <div>
             <label for="">パスワード</label>
-            <input type="password" name="password">
         </div>
-        <button>確認</button>
+        <button>登録</button>
     </form>
 </body>
 </html>
