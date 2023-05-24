@@ -1,8 +1,8 @@
-<!-- <?php
+<?php
 // PHP program
 $regist = $_POST;
-var_dump($regist);
-?> -->
+// var_dump($regist);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
