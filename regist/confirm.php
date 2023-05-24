@@ -1,3 +1,9 @@
+<!-- <?php
+// PHP program
+$regist = $_POST;
+var_dump($regist);
+?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +18,15 @@
     <form action="" method="post">
         <div>
             <label for="">氏名</label>
+            <?= $regist['name']?>
         </div>
         <div>
             <label for="">Email</label>
+            <?= $regist['email']?>
         </div>
-        <div>
+        <!-- <div>
             <label for="">パスワード</label>
-        </div>
+        </div> -->
         <button>登録</button>
     </form>
 </body>
